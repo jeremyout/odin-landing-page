@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(32, 32, 32);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 15vw;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.header-links {
+  color: #e5e7eb;
+  margin: 16px;
+}
