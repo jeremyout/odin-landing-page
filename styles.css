@@ -108,7 +108,7 @@ button {
 }
 
 .random-info-container {
-  height: 65vh;
+  height: 62.5vh;
   padding: 0px 15vw;
   display: flex;
   flex-direction: column;
@@ -149,8 +149,28 @@ button {
 }
 
 .random-info-subtext {
-  /* display: flex;
-  justify-content: center; */
   text-align: center;
   color: #7c7d7e;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  height: 50vh;
+  padding: 0px 22.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: 900;
 }
