@@ -176,7 +176,7 @@ button {
 }
 
 .call-to-action-container {
-  height: 50vh;
+  height: 45vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -207,4 +207,13 @@ button {
   border-style: solid;
   border-color: #f9faf8;
   border-radius: 10px;
+}
+
+.footer-container {
+  background-color: #1f2937;
+  height: 12.5vh;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
