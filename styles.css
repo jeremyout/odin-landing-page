@@ -30,32 +30,28 @@ button {
   border: none;
 }
 
-.main-container {
-  display: flex;
-  flex-direction: column;
+.nav-hero-container {
+  background-color: #1f2937;
 }
 
 .main-header {
   display: flex;
-  justify-content: space-between;
-  padding: 24px 15vw 0px;
-  background-color: #1f2937;
+  width: 70%;
+  margin: auto;
+  padding: 25px 0;
+  align-items: center;
 }
 
 .logo {
   color: #f9faf8;
   font-size: 24px;
   font-weight: 600;
-  display: flex;
-  align-items: center;
+  flex: 1;
 }
 
 .main-header-links {
   color: #e5e7eb;
-  margin: 16px;
   font-size: 18px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .hero {
@@ -183,7 +179,7 @@ button {
 }
 
 .call-to-action-box {
-  padding: 3rem 0px;
+  padding: 3rem 24px;
   width: 70vw;
   background-color: #3882f6;
   display: flex;
