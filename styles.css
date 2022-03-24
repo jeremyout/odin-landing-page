@@ -58,7 +58,8 @@ button {
   height: 62.5vh;
   background-color: #1f2937;
   display: flex;
-  padding: 0px 15vw;
+  width: 70%;
+  margin: auto;
   justify-content: space-between;
   gap: 48px;
 }
@@ -105,7 +106,8 @@ button {
 
 .random-info-container {
   height: 62.5vh;
-  padding: 0px 15vw;
+  width: 65%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -149,10 +151,14 @@ button {
   color: #7c7d7e;
 }
 
-.quote-container {
+.quote-bg {
   background-color: #e5e7eb;
+}
+
+.quote-container {
   height: 50vh;
-  padding: 0px 22.5vw;
+  width: 60%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -180,7 +186,7 @@ button {
 
 .call-to-action-box {
   padding: 3rem 24px;
-  width: 70vw;
+  width: 65vw;
   background-color: #3882f6;
   display: flex;
   border-radius: 15px;
